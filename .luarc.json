@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+    "runtime.version": "LuaJIT",
+    "runtime.special": {
+        "love.filesystem.load": "loadfile"
+    },
+    "workspace.library": ["types/love2d/library"],
+    "workspace.checkThirdParty": false,
+    "type.weakNilCheck": false,
+    "type.weakUnionCheck": false,
+    "type.castNumberToInteger": false,
+    "diagnostics.disable": ["duplicate-set-field"],
+    "diagnostics.groupFileStatus": {
+        "type-check": "Any"
+    }
+}

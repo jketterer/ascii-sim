@@ -1,0 +1,3 @@
+[submodule "types/love2d"]
+	path = types/love2d
+	url = https://github.com/LuaCATS/love2d.git
